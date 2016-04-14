@@ -1,0 +1,18 @@
+<table>
+<tr>
+
+ <a download="$csvDownloadFile"> 
+
+
+ <a download="$imageDownloadFile"> 
+ 
+</tr>
+</table>
+
+
+<a href="no-script.html">Download now!</a>
+
+$('a').click(function(e) {
+    e.preventDefault(); // stop the browser from following
+    window.location.href = 'downloads/file.pdf';
+});

@@ -1,0 +1,6 @@
+Parallel Target w/ no file writes
+=================
+real	0m1.782s
+user	0m1.770s
+sys	0m0.006s
+

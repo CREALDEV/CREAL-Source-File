@@ -1,0 +1,35 @@
+int ctcpdCommunicationFunction(const char *inputFile, const char *outputFile, const char *inputString, char outputString[])
+{
+	
+	
+	
+			//this function communicates through names pipes to the ctcpd daemon
+			
+	FILE *inputPipeFd, *outputPipeFd;	
+	//~ 
+	inputPipeFd = outputPipeFd = NULL; //set everything to zero right here
+			//~ 
+					inputPipeFd = fopen(inputFile,"w"); //input pipe open
+					if (inputPipeFd == NULL) { return -1;} //something went wrong right here
+					
+	
+	fprintf(inputPipeFd,"%s;",inputString); //this is the default thing we do for writing the functions
+	fflush(inputPipeFd);
+	printf("This is where the file descriotor is : %d\n",fclose(inputPipeFd)); //debugging right here
+	
+	//~ sleep(1);
+	
+	outputPipeFd = fopen(outputFile,"r"); //output pipe file
+	if (outputPipeFd == NULL) { return -1;} //something went wrong here
+	
+	//grabs the file data
+	//~ fflush(outputPipeFd);
+	if (fgets(outputString,2048,outputPipeFd) == NULL) { return -1;} //something went wrong here	
+
+	//~ fflush(outputPipeFd);
+	fclose(outputPipeFd);
+	//~ 
+	//~ 
+	
+	return 1;
+}

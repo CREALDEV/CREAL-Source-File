@@ -1,0 +1,90 @@
+#include <stdio.h> //standard library
+#include <stdlib.h>
+#include <errno.h>
+#include <unistd.h>
+#include <string.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <time.h>
+#include <fcntl.h> //for file descriptor stuff
+
+//~ #include <pthread.h> // using posix threads only
+//~ #include <regex.h>  //this is used for regular expression
+//~ #include <omp.h>  //this is used for regular expression
+//~ #include <math.h> //this is the standard math library for figureing out math functions	
+
+#include <jansson.h> //this is jansson
+#include "libcudacreal.h"
+
+
+//~ #include "libs/json_parse.h"
+
+#define USAGE "C.R.E.A.L. ~ The Next Generation 2.7" //this is the usage of the program
+
+#define CREAL_FILE_NAME "creal_ng.bin" //the name of the binary
+
+#define CREAL_INCLUDE_FILE_NAME "creal_ng.h" //the name of the include file
+
+#define CREAL_MAIN_CSOURCE_FILE_NAME "creal_ng.c" //this is the name of the main source file
+
+#define CREAL_HEADERS "#include <stdio.h> \n#include <stdlib.h> \n#include <errno.h> \n#include <unistd.h> \n#include <string.h> \n#include <sys/types.h> \n#include <sys/stat.h> \n#include <time.h> \n#include <fcntl.h> \n#include <math.h> \n#include <pthread.h> \n#include <omp.h>" 
+/* This right here are the headers for the Creal_NG binary*/
+
+#define MAIN_PART "int main(int argc, char **argv) \n {" //this is actually the beginning of the main function of the application
+
+#define END_PART "\
+		\
+exit(EXIT_SUCCESS);	\n}" //this is the end of the application
+
+
+
+
+					
+int main(int argc, char **argv)
+{
+	
+					if (argc <= 1)		
+					{
+						//nothing was entered to start the application correctly
+						quitWithError(USAGE); //shows application usage	
+						
+					}
+					
+					if (!argv[1])
+					{
+						quitWithError("A path to the json file was not entered!\n"); //shows application usage	
+						
+					}
+					
+					//~ if (!argv[2])
+					//~ {
+						//~ quitWithError("A path to the output file was not specified!\n"); //shows application usage	
+						//~ 
+					//~ }
+					
+				
+					/* The json processing */ 
+
+					json_t *root; //json root
+					
+					json_error_t error; //json error
+					
+					root = json_load_file(argv[1], 0, &error); //this loads up the json data right here
+					/* Main processing should happen here*/ 
+					puts(CREAL_HEADERS); //these are the headers of creal the next generation
+					puts(MAIN_PART); //beginning of the 
+					
+					//~ puts(USAGE);
+					
+					puts(END_PART);
+					
+					
+					json_decref(root); //free jansson parsing data
+					
+					
+	exit(EXIT_SUCCESS);	//beep-boop .. a success!!
+		
+		
+}
+
+

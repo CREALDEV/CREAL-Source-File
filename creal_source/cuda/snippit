@@ -1,0 +1,49 @@
+{"id":"682","name":"The Mouth of that 
+
+Man","synonyms":"","location":"","comment":"","image":"","properties":{"900":{"name":"Glucose","type":"number","value":"0"}},"action
+
+ list":{"368":{"actions":[{"action_type":"1","target_id":"900","target_value":"181252"}],"conditions":[{"field":"898","relation":"1","value":"368"}]},"
+
+ 370":{"actions":[{"action_type":"2","target_id":"900","target_value":"181252"}],"conditions":[{"field":"898","relation":"1","value":"370"}]},"371":{"a
+
+ ctions":[{"action_type":"1","target_id":"900","target_value":"181252"}],"conditions":[{"field":"898","relation":"1","value":"371"}]},"372":{"actions":
+
+ [{"action_type":"2","target_id":"900","target_value":"181252"}],"conditions":[{"field":"898","relation":"1","value":"372"}]},"373":{"actions":[{"actio
+
+ n_type":"1","target_id":"900","target_value":"181252"}],"conditions":[{"field":"898","relation":"1","value":"373"}]},"374":{"actions":[{"action_type":
+
+ "2","target_id":"900","target_value":"181252"}],"conditions":[{"field":"898","relation":"1","value":"374"}]}}},{"id":"683","name":"The Small 
+ 
+ Intestine of that  
+
+ Man","synonyms":"","location":"","comment":"","image":"","properties":{"899":{"name":"Glucose","type":"number","value":"0"}},"action 
+
+ list":{"376":{"actions":[{"action_type":"1","target_id":"899","target_value":"12.6889"}],"conditions":[{"field":"898","relation":"2","value":"376"},
+
+ {"field":"898","relation":"3","value":"376"}]},"378":{"actions":[{"action_type":"3","target_id":"899","target_value":"-(0.0748*[pid:899]^2)-(2.1468*
+
+ [pid:899])+4.9123"}],"conditions":[{"field":"899","relation":"2","value":"378"}]},"382":{"actions":[{"action_type":"3","target_id":"905","target_valu
+ 
+ e":"[pid:905]+(0.0748*[pid:899]^2)+(2.1468*[pid:899])+4.9123"}],"conditions":[{"field":"899","relation":"2","value":"382"}]},"383":{"actions":[{"acti
+
+ on_type":"1","target_id":"899","target_value":"12.6889"}],"conditions":[{"field":"898","relation":"2","value":"383"},{"field":"898","relation":"3","v
+
+ alue":"383"}]},"384":{"actions":[{"action_type":"1","target_id":"899","target_value":"12.6889"}],"conditions":[{"field":"898","relation":"2","value":
+
+ "384"},{"field":"898","relation":"3","value":"384"}]}}},{"id":"684","name":"The Liver of that 
+
+ Man","synonyms":"","location":"","comment":"","image":"","properties":{"901":{"name":"Glucose","type":"number","value":"0"}}},{"id":"685","name":"Sto
+
+ mach (New)","synonyms":"","location":"","comment":"","image":"","properties":{"902":{"name":"Glucose 
+
+ ","type":"number","value":"0"}}},{"id":"686","name":"Stomach 
+
+ (New)","synonyms":"","location":"","comment":"","image":"","properties":{"906":{"name":"Glucose","type":"number","value":""}},"action 
+
+ list":{"386":{"actions":[{"action_type":"1","target_id":"906","target_value":"181252"}],"conditions":[{"field":"898","relation":"1","value":"386"}]}}
+
+ },{"id":"687","name":"Stomach (New)","synonyms":"","location":"","comment":"","image":"","properties":[]},{"id":"688","name":"Stomach 
+
+ (New)","synonyms":"","location":"","comment":"","image":"","properties":[]}]
+
+

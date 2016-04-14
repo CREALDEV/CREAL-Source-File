@@ -1,0 +1,18 @@
+function_call: SIN OPENBRACKET expr CLOSEBRACKET
+{ $$ = (cos($3)*tan($3)); }
+| COS OPENBRACKET expr CLOSEBRACKET
+{ $$ = cos($3); }
+| TAN OPENBRACKET expr CLOSEBRACKET
+{ $$ = tan($3); }
+| ASIN OPENBRACKET expr CLOSEBRACKET
+{ $$ = asin($3); }
+| ACOS OPENBRACKET expr CLOSEBRACKET
+{ $$ = acos($3); }
+| ATAN OPENBRACKET expr CLOSEBRACKET
+{ $$ = atan($3); }
+;
+
+
+// fix this stuff right here
+
+exp(10,-5) 

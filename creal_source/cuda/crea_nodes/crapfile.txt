@@ -1,0 +1,64 @@
+/* Garbage Below */
+
+
+
+	//~ uint N = 10;
+	//~ 
+	//~ 
+	//~ cudaPrintfInit(); //initializes the cuda printf function
+//~ 
+    //~ 
+    //~ crea_node test;
+    //~ crea_node hostTest = returnCreaNodeMemHost(N); //this returns some 
+    //~ cudaMalloc(&test, sizeof(crea_node)*N);
+//~ 
+//~ 
+//~ 
+					//~ for (int i = 0; i < N; i++)
+					//~ {
+						//~ 
+						//~ hostTest[i].value = 100;
+						//~ 
+					//~ }
+						//~ 
+						//~ cudaMemcpy(test,hostTest,sizeof(crea_node) * N,cudaMemcpyHostToDevice); //copy memory from host to the device
+    //~ 
+    //~ 
+			//~ printf("Value now : %d\n",hostTest->value);
+			//~ 
+			 //call the cuda kernel function
+			//~ cudaPrintfDisplay(stdout, true); //displays the cuda printf functionality
+			//~ 
+			//~ cudaMemcpy(hostTest,test,sizeof(crea_node) * N,cudaMemcpyDeviceToHost); //copy memory from device to the host
+			//~ 
+			//~ puts(hostTest->name); //use this to test things 
+			//~ 
+				//~ printf("Value now : %d\n",hostTest->value);
+			//~ 
+				//~ cudaPrintfEnd(); //ends the cuda printf function
+			//~ 
+				//~ free(hostTest); //free the host memory
+				//~ cudaFree(test); //free device memory ~ I get a segfault here and I don't know what the f--- is wrong!!
+		//~ 
+			//~ 
+					//~ sleep(2); //sleep for 8 seconds
+			//~ 
+					//~ 
+					//~ 
+
+
+/*This stuff below is actually for the cuda kernel */
+
+		//~ cuPrintf("Current Thread: %d\n",iThreadID);
+				//~ creaNodeStructure->name = "NOT_TESTING";
+					
+					
+				//~ cuPrintf("Current Thread: %d\n", creaNodeStructure->value);
+		
+				//Right here I am testing passing structures to a cuda kernel	
+		
+					//~ creaNodeStructure[thrI].(*link)->value;  //I dont know what I was trying to do here
+						//~ creaNodeStructure[thrI] = creaNodeStructure[thrI]->link;
+						//~ pre_crea_node temp = creaNodeStructure[thrI].*(link);
+						//~ struct node *temp = creaNodeStructure[thrI].link;
+						//~ creaNodeStructure[thrI].link->value++;

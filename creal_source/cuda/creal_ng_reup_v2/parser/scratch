@@ -1,0 +1,1 @@
+fprintf(*fp,"%s[%d] = &%s[%d].actionList[%d];\n",NAME_CREAL_ACT_STRUCTURE,actVar,NAME_CREAL_NODE_STRUCTURE,idVar,actionCounter);

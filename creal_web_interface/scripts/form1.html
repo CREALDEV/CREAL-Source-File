@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta charset="utf-8" />
+
+	<title>JSONDOWNLOADER</title>
+
+	<style type="text/css">
+
+
+		body 
+		{
+			background-color: #BFBFBF;
+		}
+
+	</style>
+
+</head>
+<body>
+<form action="saveJsonFile.pl" method="post" id="jsonSaver" target="saveJsonIframe">
+
+<input id="saveJsonData" type="hidden" name="saveJsonData" value="NULL">
+<button onclick="saveJsonData()">SAVE</button>
+
+</form>
+
+<form action="loadJsonFile.pl" method="post" id="jsonLoader" target="loadJsonIframe">
+
+	<input id="loadJsonData" type="hidden" name="loadJsonData" value="NULL">
+	<button onclick="loadJsonData()">SAVE</button>
+
+</form>
+
+
+
+<!--
+DO SOMETHING HIDDEN HERE 
+-->
+
+<div id="jsonFileStuff" class="jsonFileStuff" style="">
+
+<iframe height="1" width="1"  name = "saveJsonIframe"  id = "saveJsonIframe" src="http://www.google.com"> </iframe>
+<br>
+<iframe height="1" width="1"  name = "loadJsonIframe"  id = "loadJsonIframe" src="http://www.google.com"> </iframe>
+
+</div>
+
+</body>
+</html>

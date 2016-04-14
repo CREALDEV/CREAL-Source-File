@@ -1,0 +1,8 @@
+function dummy names:
+ 
+ tanh(0.5)  - in math library
+ sinh(0.7) - in math library
+ cosh(0.4) - in math library
+ pow([63],(-1.154)) - in math library
+ rand(-10,10) - needs to be made up
+ exp(10,13)  - needs to be taken out

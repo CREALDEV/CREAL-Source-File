@@ -1,0 +1,32 @@
+{"id":"688","name":"Small Intestine ","synonyms":"","location":"","comment":"","image":"","properties":
+{"Mg of Glucose Absorbed by Small Intestine":{"id":"909","type":"number","value":"0","units":""},"Intestinal glucose 
+level":{"id":"939","type":"number","value":"0","units":""}},"action
+ 
+ list":{"action_group679":{"actions":[{"id":"585","action_type":"1","target_id":"909","target_value":"50.0437"}],"conditions":[{"field":"898","relation":"2
+ 
+ ","value":"21604"},{"field":"898","relation":"3","value":"42184"},{"field":"940","relation":"4","value":"50.0437"},{"field":"941","relation":"4","value":"
+ 50.0437"},{"field":"942","relation":"4","value":"50.0437"}]},"action_group682":{"actions":[{"id":"586","action_type":"1","target_id":"909","target_value":
+ "50.0437"}],"conditions":[{"field":"898","relation":"2","value":"43204"},{"field":"898","relation":"3","value":"63784"},{"field":"940","relation":"4","va
+ lue":"50.0437"},{"field":"941","relation":"4","value":"50.0437"},{"field":"942","relation":"4","value":"50.0437"}]},"action_group685":{"actions":[{"id":"
+ 587","action_type":"1","target_id":"909","target_value":"50.0437"}],"conditions":[{"field":"898","relation":"2","value":"64804"},{"field":"898","relation
+ ":"3","value":"85384"},{"field":"940","relation":"4","value":"50.0437"},{"field":"941","relation":"4","value":"50.0437"},{"field":"942","relation":"4","v
+ alue":"50.0437"}]},"action_group688":{"actions":[{"id":"588","action_type":"2","target_id":"909","target_value":"8.754"}],"conditions":[{"field":"898","r
+ elation":"2","value":"21605"},{"field":"898","relation":"3","value":"42185"},{"field":"940","relation":"4","value":"50.0437"},{"field":"941","relation":"
+ 4","value":"50.0437"},{"field":"942","relation":"4","value":"50.0437"}]},"action_group691":{"actions":[{"id":"589","action_type":"2","target_id":"909","t
+ arget_value":"8.754"}],"conditions":[{"field":"898","relation":"2","value":"43205"},{"field":"898","relation":"3","value":"63785"},{"field":"940","relati
+ on":"4","value":"50.0437"},{"field":"941","relation":"4","value":"50.0437"},{"field":"942","relation":"4","value":"50.0437"}]},"action_group694":{"action
+ s":[{"id":"590","action_type":"2","target_id":"909","target_value":"8.754"}],"conditions":[{"field":"898","relation":"2","value":"64805"},{"field":"898",
+ "relation":"3","value":"85385"},{"field":"940","relation":"4","value":"50.0437"},{"field":"941","relation":"4","value":"50.0437"},{"field":"942","relatio
+ n":"4","value":"50.0437"}]},"action_group697":{"actions":[{"id":"703","action_type":"1","target_id":"936","target_value":"0.01666666666666666666666666666
+ 6666666"}],"conditions":[{"field":"898","relation":"4","value":"21775"},{"field":"898","relation":"5","value":"23575"},{"field":"940","relation":"4","val
+ ue":"50.0437"},{"field":"941","relation":"4","value":"50.0437"},{"field":"942","relation":"4","value":"50.0437"}]},"action_group700":{"actions":[{"id":"5
+ 92","action_type":"1","target_id":"936","target_value":"0.01666666666666666666"}],"conditions":[{"field":"898","relation":"4","value":"43375"},{"field":"
+ 898","relation":"5","value":"45175"},{"field":"940","relation":"4","value":"50.0437"},{"field":"941","relation":"4","value":"50.0437"},{"field":"942","re
+ lation":"4","value":"50.0437"}]},"action_group703":{"actions":[{"id":"593","action_type":"1","target_id":"936","target_value":"0.0166666666666666666666"}
+ ],"conditions":[{"field":"898","relation":"4","value":"64975"},{"field":"898","relation":"5","value":"66775"},{"field":"940","relation":"4","value":"50.0
+ 437"},{"field":"941","relation":"4","value":"50.0437"},{"field":"942","relation":"4","value":"50.0437"}]},"action_group667":{"actions":[{"id":"714","acti
+ on_type":"2","target_id":"939","target_value":"8.754"}],"conditions":[{"field":"898","relation":"4","value":"21604"},{"field":"898","relation":"3","value
+ ":"42184"}]},"action_group668":{"actions":[{"id":"715","action_type":"2","target_id":"939","target_value":"8.754"}],"conditions":[{"field":"898","relatio
+ n":"4","value":"43204"},{"field":"898","relation":"3","value":"63784"}]},"action_group669":{"actions":[{"id":"716","action_type":"2","target_id":"939","t
+ arget_value":"8.754"}],"conditions":[{"field":"898","relation":"4","value":"64804"},{"field":"898","relation":"5","value":"85384"}]}}}
+

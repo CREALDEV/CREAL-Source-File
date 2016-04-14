@@ -1,0 +1,550 @@
+    id: 679
+    name: Time (Faseb)
+    synonyms:
+    location:
+    image:
+    properties:
+        Seconds: 0 (pid: 898)
+    actions:
+        367
+            change Seconds (pid:898) by/to ([898]+1)%86400 (id: 481)
+            conditions:
+
+    id: 681
+    name: The Body of a 25 Year Old Male
+    synonyms:
+    location:
+    image:
+    properties:
+        Insulin Level in uU/ml: 1 (pid: 903)
+        Glucagon Level ng: 1 (pid: 904)
+        Basal Glucose in mg%: 901.26 (pid: 905)
+    actions:
+        380
+            change Insulin Level in uU/ml (pid:903) by/to 1.672*[905]-137.296 (id: 492)
+            conditions:
+        381
+            change Glucagon Level ng (pid:904) by/to 0.00020048*[905]-0.01646235 (id: 493)
+            conditions:
+        385
+            decrease Basal Glucose in mg% (pid:905) by/to 0.0434400626666666 (id: 498)
+            conditions:
+                if Seconds > 0 (cid: 460)
+                if Seconds < 21600 (cid: 461) 
+        474
+            decrease Basal Glucose in mg% (pid:905) by/to 8.31921128 (id: 594)
+            conditions:
+                if Seconds >= 21600 (cid: 462) 
+
+    id: 682
+    name: The Mouth of that Man
+    synonyms:
+    location:
+    image:
+    properties:
+        Glucose: 0 (pid: 900)
+    actions:
+        368
+            increase Glucose (pid:900) by/to 181252 (id: 482)
+            conditions:
+                if Seconds = 21600 (cid: 332) 
+        370
+            decrease Glucose (pid:900) by/to 181252 (id: 483)
+            conditions:
+                if Seconds = 21601 (cid: 333) 
+        371
+            increase Glucose (pid:900) by/to 181252 (id: 484)
+            conditions:
+                if Seconds = 43200 (cid: 334) 
+        372
+            decrease Glucose (pid:900) by/to 181252 (id: 487)
+            conditions:
+                if Seconds = 43201 (cid: 335) 
+        373
+            increase Glucose (pid:900) by/to 181252 (id: 488)
+            conditions:
+                if Seconds = 64800 (cid: 336) 
+        374
+            decrease Glucose (pid:900) by/to 181252 (id: 489)
+            conditions:
+                if Seconds = 64801 (cid: 337) 
+
+    id: 683
+    name: The Small Intestine of that Man
+    synonyms:
+    location:
+    image:
+    properties:
+        Glucose: 0 (pid: 899)
+    actions:
+        387
+            increase Glucose (pid:899) by/to 34075 (id: 500)
+            conditions:
+                if Glucose > 0 (cid: 359) 
+        393
+            decrease Glucose (pid:899) by/to 3.987544 (id: 515)
+            conditions:
+                if Glucose > 0 (cid: 360) 
+        394
+            decrease Glucose (pid:899) by/to 3.987544 (id: 516)
+            conditions:
+                if Glucose > 3.987544 (cid: 361) 
+        395
+            decrease Glucose (pid:899) by/to 3.987544 (id: 517)
+            conditions:
+                if Glucose > 7.975088 (cid: 362) 
+        396
+            decrease Glucose (pid:899) by/to 3.987544 (id: 518)
+            conditions:
+                if Glucose > 11.962632 (cid: 363) 
+        397
+            decrease Glucose (pid:899) by/to 3.987544 (id: 519)
+            conditions:
+                if Glucose > 15.950176 (cid: 364) 
+        398
+            decrease Glucose (pid:899) by/to 3.987544 (id: 520)
+            conditions:
+                if Glucose > 19.93772 (cid: 365) 
+        399
+            decrease Glucose (pid:899) by/to 3.987544 (id: 521)
+            conditions:
+                if Glucose > 23.925264 (cid: 366) 
+        400
+            decrease Glucose (pid:899) by/to 3.987544 (id: 522)
+            conditions:
+                if Glucose > 27.912808 (cid: 367) 
+        401
+            decrease Glucose (pid:899) by/to 3.987544 (id: 523)
+            conditions:
+                if Glucose > 31.900352 (cid: 368) 
+        402
+            decrease Glucose (pid:899) by/to 3.987544 (id: 524)
+            conditions:
+                if Glucose > 35.887896 (cid: 369) 
+        403
+            decrease Glucose (pid:899) by/to 3.987544 (id: 525)
+            conditions:
+                if Glucose > 39.87544 (cid: 370) 
+        404
+            decrease Glucose (pid:899) by/to 3.987544 (id: 569)
+            conditions:
+                if Glucose > 43.862984 (cid: 371)
+                if Glucose > 43.862984 (cid: 412) 
+        405
+            decrease Glucose (pid:899) by/to 3.987544 (id: 570)
+            conditions:
+                if Glucose > 47.850528 (cid: 372)
+                if Glucose > 47.850528 (cid: 413) 
+        406
+            decrease Glucose (pid:899) by/to 3.987544 (id: 529)
+            conditions:
+                if Glucose > 51.838072 (cid: 373) 
+        407
+            decrease Glucose (pid:899) by/to 3.987544 (id: 530)
+            conditions:
+                if Glucose > 55.825616 (cid: 374) 
+        408
+            decrease Glucose (pid:899) by/to 3.987544 (id: 531)
+            conditions:
+                if Glucose > 59.81316 (cid: 375) 
+        409
+            decrease Glucose (pid:899) by/to 3.987544 (id: 532)
+            conditions:
+                if Glucose > 63.800704 (cid: 376) 
+        410
+            decrease Glucose (pid:899) by/to 3.987544 (id: 533)
+            conditions:
+                if Glucose > 67.788248 (cid: 377) 
+        411
+            decrease Glucose (pid:899) by/to 3.987544 (id: 534)
+            conditions:
+                if Glucose > 71.775792 (cid: 378) 
+        412
+            decrease Glucose (pid:899) by/to 3.987544 (id: 535)
+            conditions:
+                if Glucose > 75.763336 (cid: 379) 
+        413
+            decrease Glucose (pid:899) by/to 3.987544 (id: 536)
+            conditions:
+                if Glucose > 79.75088 (cid: 380) 
+        414
+            decrease Glucose (pid:899) by/to 3.987544 (id: 537)
+            conditions:
+                if Glucose > 83.738424 (cid: 381) 
+        415
+            decrease Glucose (pid:899) by/to 3.987544 (id: 538)
+            conditions:
+                if Glucose > 87.725968 (cid: 382) 
+        416
+            decrease Glucose (pid:899) by/to 3.987544 (id: 539)
+            conditions:
+                if Glucose > 91.713512 (cid: 383) 
+        417
+            decrease Glucose (pid:899) by/to 3.987544 (id: 540)
+            conditions:
+                if Glucose > 95.701056 (cid: 384) 
+        419
+            decrease Glucose (pid:899) by/to 3.987544 (id: 541)
+            conditions:
+                if Glucose > 99.6886 (cid: 385) 
+        420
+            increase Basal Glucose in mg% (pid:905) by/to 0.066459066666666666 (id: 543)
+            conditions:
+                if Glucose > 0 (cid: 386) 
+        421
+            increase Basal Glucose in mg% (pid:905) by/to 0.0664590666666666666666666 (id: 544)
+            conditions:
+                if Glucose > 3.987544 (cid: 387) 
+        422
+            increase Basal Glucose in mg% (pid:905) by/to 0.06645906666666666 (id: 545)
+            conditions:
+                if Glucose > 7.975088 (cid: 388) 
+        423
+            increase Basal Glucose in mg% (pid:905) by/to 0.06645906666666666 (id: 546)
+            conditions:
+                if Glucose > 11.962632 (cid: 389) 
+        424
+            increase Basal Glucose in mg% (pid:905) by/to 0.0664590666666666666 (id: 547)
+            conditions:
+                if Glucose > 15.950176 (cid: 390) 
+        425
+            increase Basal Glucose in mg% (pid:905) by/to 0.06645906666666666 (id: 548)
+            conditions:
+                if Glucose > 19.93772 (cid: 391) 
+        426
+            increase Basal Glucose in mg% (pid:905) by/to 0.06645906666666 (id: 549)
+            conditions:
+                if Glucose > 23.925264 (cid: 392) 
+        427
+            increase Basal Glucose in mg% (pid:905) by/to 0.066459066666666666 (id: 550)
+            conditions:
+                if Glucose > 27.912808 (cid: 393) 
+        428
+            increase Basal Glucose in mg% (pid:905) by/to 0.066459066666666666 (id: 551)
+            conditions:
+                if Glucose > 31.900352 (cid: 394) 
+        429
+            increase Basal Glucose in mg% (pid:905) by/to 0.066459066666666666 (id: 552)
+            conditions:
+                if Glucose > 35.887896 (cid: 395) 
+        430
+            increase Basal Glucose in mg% (pid:905) by/to 0.066459066666666666 (id: 553)
+            conditions:
+                if Glucose > 39.87544 (cid: 396) 
+        431
+            increase Basal Glucose in mg% (pid:905) by/to 0.066459066666666666 (id: 554)
+            conditions:
+                if Glucose > 43.862984 (cid: 397) 
+        432
+            increase Basal Glucose in mg% (pid:905) by/to 0.066459066666666666 (id: 555)
+            conditions:
+                if Glucose > 47.850528 (cid: 398) 
+        433
+            increase Basal Glucose in mg% (pid:905) by/to 0.066459066666666666 (id: 556)
+            conditions:
+                if Glucose > 51.838072 (cid: 399) 
+        434
+            increase Basal Glucose in mg% (pid:905) by/to 0.066459066666666666 (id: 557)
+            conditions:
+                if Glucose > 55.825616 (cid: 400) 
+        435
+            increase Basal Glucose in mg% (pid:905) by/to 0.066459066666666666 (id: 558)
+            conditions:
+                if Glucose > 59.81316 (cid: 401) 
+        436
+            increase Basal Glucose in mg% (pid:905) by/to 0.066459066666666666 (id: 559)
+            conditions:
+                if Glucose > 63.800704 (cid: 402) 
+        437
+            increase Basal Glucose in mg% (pid:905) by/to 0.066459066666666666 (id: 560)
+            conditions:
+                if Glucose > 67.788248 (cid: 403) 
+        438
+            increase Basal Glucose in mg% (pid:905) by/to 0.066459066666666666 (id: 561)
+            conditions:
+                if Glucose > 71.775792 (cid: 404) 
+        439
+            increase Basal Glucose in mg% (pid:905) by/to 0.066459066666666666 (id: 562)
+            conditions:
+                if Glucose > 75.763336 (cid: 405) 
+        440
+            increase Basal Glucose in mg% (pid:905) by/to 0.066459066666666666 (id: 563)
+            conditions:
+                if Glucose > 79.75088 (cid: 406) 
+        441
+            increase Basal Glucose in mg% (pid:905) by/to 0.066459066666666666 (id: 564)
+            conditions:
+                if Glucose > 83.738424 (cid: 407) 
+        442
+            increase Basal Glucose in mg% (pid:905) by/to 0.066459066666666666 (id: 565)
+            conditions:
+                if Glucose > 87.725968 (cid: 408) 
+        443
+            increase Basal Glucose in mg% (pid:905) by/to 0.066459066666666666 (id: 566)
+            conditions:
+                if Glucose > 91.713512 (cid: 409) 
+        444
+            increase Basal Glucose in mg% (pid:905) by/to 0.066459066666666666 (id: 567)
+            conditions:
+                if Glucose > 95.701056 (cid: 410) 
+        445
+            increase Basal Glucose in mg% (pid:905) by/to 0.066459066666666666 (id: 568)
+            conditions:
+                if Glucose > 99.6886 (cid: 411) 
+
+    id: 684
+    name: The Liver of that Man
+    synonyms:
+    location:
+    image:
+    properties:
+    actions:
+        495
+            decrease Insulin Level in uU/ml (pid:903) by/to 0.01 (id: 625)
+            conditions:
+                if Basal Glucose in mg% > 1000 (cid: 490) 
+        496
+            decrease Insulin Level in uU/ml (pid:903) by/to 0.001 (id: 626)
+            conditions:
+                if Basal Glucose in mg% < 1000 (cid: 491) 
+        497
+            decrease Glucagon Level ng (pid:904) by/to 0.01 (id: 627)
+            conditions:
+                if Basal Glucose in mg% > 1000 (cid: 492) 
+        498
+            decrease Glucagon Level ng (pid:904) by/to 0.001 (id: 628)
+            conditions:
+                if Basal Glucose in mg% < 1000 (cid: 493) 
+
+    id: 688
+    name: Small Intestine for FASEB
+    synonyms:
+    location:
+    image:
+    properties:
+        Glucose In Intestine in mg%: 0 (pid: 909)
+    actions:
+        464
+            increase Glucose In Intestine in mg% (pid:909) by/to 30208 (id: 585)
+            conditions:
+                if Seconds >= 21604 (cid: 441)
+                if Seconds <= 21609 (cid: 442) 
+        466
+            increase Glucose In Intestine in mg% (pid:909) by/to 30208 (id: 586)
+            conditions:
+                if Seconds >= 43204 (cid: 444)
+                if Seconds <= 43209 (cid: 445) 
+        467
+            increase Glucose In Intestine in mg% (pid:909) by/to 30208 (id: 587)
+            conditions:
+                if Seconds >= 64804 (cid: 446)
+                if Seconds <= 64809 (cid: 447) 
+        468
+            decrease Glucose In Intestine in mg% (pid:909) by/to 100.69 (id: 588)
+            conditions:
+                if Seconds >= 21610 (cid: 448)
+                if Seconds <= 23409 (cid: 449) 
+        469
+            decrease Glucose In Intestine in mg% (pid:909) by/to 100.69 (id: 589)
+            conditions:
+                if Seconds >= 43210 (cid: 450)
+                if Seconds <= 45009 (cid: 451) 
+        470
+            decrease Glucose In Intestine in mg% (pid:909) by/to 100.69 (id: 590)
+            conditions:
+                if Seconds >= 64810 (cid: 452)
+                if Seconds <= 66599 (cid: 453) 
+        471
+            increase Basal Glucose in mg% (pid:905) by/to 100.69 (id: 591)
+            conditions:
+                if Seconds >= 21610 (cid: 454)
+                if Seconds <= 23409 (cid: 455) 
+        472
+            increase Basal Glucose in mg% (pid:905) by/to 100.69 (id: 592)
+            conditions:
+                if Seconds >= 43210 (cid: 456)
+                if Seconds <= 45009 (cid: 457) 
+        473
+            increase Basal Glucose in mg% (pid:905) by/to 100.69 (id: 593)
+            conditions:
+                if Seconds >= 64810 (cid: 458)
+                if Seconds <= 66599 (cid: 459) 
+
+    id: 689
+    name: Stomach
+    synonyms:
+    location: Human Body
+    image:
+    properties:
+        Stomach Glucose Level: 0 (pid: 910)
+    actions:
+        457
+            increase Stomach Glucose Level (pid:910) by/to 181248 (id: 579)
+            conditions:
+                if Seconds = 21602 (cid: 435) 
+        458
+            increase Stomach Glucose Level (pid:910) by/to 181248 (id: 580)
+            conditions:
+                if Seconds = 43202 (cid: 437) 
+        459
+            increase Stomach Glucose Level (pid:910) by/to 181248 (id: 581)
+            conditions:
+                if Seconds = 64802 (cid: 439) 
+        460
+            decrease Stomach Glucose Level (pid:910) by/to 30208 (id: 582)
+            conditions:
+                if Seconds >= 21603 (cid: 429)
+                if Seconds <= 21608 (cid: 430) 
+        462
+            decrease Stomach Glucose Level (pid:910) by/to 30208 (id: 583)
+            conditions:
+                if Seconds >= 43203 (cid: 431)
+                if Seconds <= 43208 (cid: 432) 
+        463
+            decrease Stomach Glucose Level (pid:910) by/to 30208 (id: 584)
+            conditions:
+                if Seconds >= 64803 (cid: 433)
+                if Seconds <= 64808 (cid: 434) 
+
+    id: 699
+    name: Time (Henry& Gizem system)
+    synonyms: *complete node*
+    location:
+    image:
+    properties:
+        Time Elapsed: 1 (seconds) (pid: 918)
+    actions:
+        490
+            increase Time Elapsed (pid:918) by/to 1 (id: 619)
+            conditions:
+                if Time Elapsed ≠ 0 (cid: 472) 
+
+    id: 700
+    name: Gizem\'s HB
+    synonyms:
+    location:
+    image:
+    properties:
+        Heartbeat: 10 (pid: 919)
+    actions:
+        491
+            decrease Heartbeat (pid:919) by/to 1 (id: 620)
+            conditions:
+                if Seconds = 1 % 10 (cid: 480)
+                if Seconds = 2 % 10 (cid: 481)
+                if Seconds = 3 % 10 (cid: 482)
+                if Seconds = 4 % 10 (cid: 483)
+                if Seconds = 5 % 10 (cid: 484) 
+        492
+            increase Heartbeat (pid:919) by/to 1 (id: 621)
+            conditions:
+                if Seconds = 6 % 10 (cid: 485)
+                if Seconds = 7 % 10 (cid: 486)
+                if Seconds = 8 % 10 (cid: 487)
+                if Seconds = 9 % 10 (cid: 488)
+                if Seconds = 0 % 10 (cid: 489) 
+
+    id: 701
+    name: GFR
+    synonyms:
+    location:
+    image:
+    properties:
+        GFR: 65 (pid: 920)
+    actions:
+        517
+            increase GFR (pid:920) by/to 0 (id: 647)
+            conditions:
+                if Seconds < 22428 (cid: 533) 
+        518
+            increase GFR (pid:920) by/to 0.006918 (id: 648)
+            conditions:
+                if Seconds >= 22428 (cid: 534)
+                if Seconds < 24018 (cid: 535) 
+        519
+            increase GFR (pid:920) by/to 0.000049 (id: 649)
+            conditions:
+                if Seconds >= 24018 (cid: 536)
+                if Seconds < 44428 (cid: 537) 
+        520
+            increase GFR (pid:920) by/to 0.000022961 (id: 650)
+            conditions:
+                if Seconds >= 44428 (cid: 538)
+                if Seconds < 66204 (cid: 539) 
+        521
+            decrease GFR (pid:920) by/to 0.00095 (id: 651)
+            conditions:
+                if Seconds >= 66204 (cid: 540)
+                if Seconds < 86400 (cid: 541) 
+
+    id: 702
+    name: The Pancreas of that Man
+    synonyms:
+    location:
+    image:
+    properties:
+    actions:
+        499
+            increase Insulin Level in uU/ml (pid:903) by/to 0.015 (id: 629)
+            conditions:
+                if Basal Glucose in mg% > 1000 (cid: 494) 
+        500
+            increase Insulin Level in uU/ml (pid:903) by/to 0.0015 (id: 630)
+            conditions:
+                if Basal Glucose in mg% < 1000 (cid: 495) 
+        501
+            increase Glucagon Level ng (pid:904) by/to 0.015 (id: 631)
+            conditions:
+                if Basal Glucose in mg% > 1000 (cid: 496) 
+        502
+            increase Glucagon Level ng (pid:904) by/to 0.0015 (id: 632)
+            conditions:
+                if Basal Glucose in mg% < 1000 (cid: 497) 
+
+    id: 703
+    name: Blood Glucose Level Type II Diabetes Patient
+    synonyms:
+    location:
+    image:
+    properties:
+        Blood Glucose Level: 319 (pid: 921)
+    actions:
+        503
+            decrease Blood Glucose Level (pid:921) by/to 0.001667 (id: 633)
+            conditions:
+                if Seconds < 21600 (cid: 498) 
+        504
+            increase Blood Glucose Level (pid:921) by/to 0.016666 (id: 634)
+            conditions:
+                if Seconds >= 21600 (cid: 499)
+                if Seconds < 28800 (cid: 500) 
+        505
+            decrease Blood Glucose Level (pid:921) by/to 0.008 (id: 635)
+            conditions:
+                if Seconds >= 28800 (cid: 501)
+                if Seconds < 43200 (cid: 502) 
+        506
+            increase Blood Glucose Level (pid:921) by/to 0.017 (id: 636)
+            conditions:
+                if Seconds >= 43200 (cid: 503)
+                if Seconds < 50400 (cid: 504) 
+        507
+            decrease Blood Glucose Level (pid:921) by/to 0.0075 (id: 637)
+            conditions:
+                if Seconds >= 50400 (cid: 505)
+                if Seconds < 64800 (cid: 506) 
+        508
+            increase Blood Glucose Level (pid:921) by/to 0.0167 (id: 638)
+            conditions:
+                if Seconds >= 64800 (cid: 507)
+                if Seconds < 72000 (cid: 508) 
+        509
+            increase Blood Glucose Level (pid:921) by/to 0.0000000000000000000000001 (id: 639)
+            conditions:
+                if Seconds >= 72000 (cid: 509)
+                if Seconds < 75600 (cid: 510) 
+        510
+            decrease Blood Glucose Level (pid:921) by/to 0.007 (id: 640)
+            conditions:
+                if Seconds >= 75600 (cid: 511)
+                if Seconds < 86400 (cid: 512) 

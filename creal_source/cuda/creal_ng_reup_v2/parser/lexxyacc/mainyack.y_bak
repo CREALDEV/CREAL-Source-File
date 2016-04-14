@@ -1,0 +1,53 @@
+%{
+/* Global and header definitions required */
+#define YYSTYPE char *
+#include <stdio.h>
+#include <stdlib.h>
+#include <stddef.h>
+#include <ctype.h>
+#include <string.h>
+#include <alloca.h>
+#include <math.h>
+int yydebug=1; 
+char buffer[2048];
+%}
+/* Declarations (Optional token definitions) */
+%token EQUALS POWER NUMBER LPAREN RPAREN COMMA POW PID INTEGER DOUBLE LBRACKET RBRACKET CREA RB LB RP LP
+%left PLUS MINUS
+%left TIMES DIVIDE
+
+%%
+/* Parsing ruleset definitions */
+
+property_id : LBRACKET INTEGER RBRACKET { printf("crealProperty%s", $2);}
+;
+
+
+%%
+
+/* Additional C source code */
+
+#include <stdio.h>
+#include <ctype.h>
+char *progname; //this is used for the program name right here
+
+
+int main(int argc, char **argv) 
+{
+
+	progname = argv[0];
+	
+	yyparse();
+	
+	//puts(buffer);
+	return 0;
+
+	
+}
+
+
+yyerror(char *s)
+{
+
+	fprintf( stderr ,"%s: %s\n" , progname , s );
+}

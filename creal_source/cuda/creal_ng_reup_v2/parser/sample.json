@@ -1,0 +1,91 @@
+[{
+    "id": "1",
+    "name": "Epinephrine",
+    "synonyms": "Adrenaline, (R)-4-(1-hydroxy- 2-(methylamino)ethyl)benzene-1,2-diol, EPI ",
+    "image": "",
+    "comment": "",
+    "properties": {
+        "31": {
+            "name": "Quantity",
+            "type": "number",
+            "value": "1000"
+        }
+    },
+    "action list": {
+        "1": {
+            "actions": [{
+                "action_type": "1",
+                "target_id": "5",
+                "target_value": "10"
+            }, {
+                "action_type": "1",
+                "target_id": "6",
+                "target_value": "10"
+            }, {
+                "action_type": "1",
+                "target_id": "7",
+                "target_value": "10"
+            }, {
+                "action_type": "1",
+                "target_id": "8",
+                "target_value": "10"
+            }, {
+                "action_type": "1",
+                "target_id": "9",
+                "target_value": "10"
+            }, {
+                "action_type": "1",
+                "target_id": "10",
+                "target_value": "10"
+            }],
+            "conditions": [{
+                "field": "11",
+                "relation": "2",
+                "value": "1"
+            }]
+        }
+    }
+}, {
+    "id": "2",
+    "name": "Dummy",
+    "synonyms": "",
+    "image": "",
+    "comment": "",
+    "properties": {
+        "5": {
+            "name": "Heart rate",
+            "type": "number",
+            "value": "60"
+        },
+        "6": {
+            "name": "respiratory rate",
+            "type": "number",
+            "value": "60"
+        },
+        "7": {
+            "name": "vasoconstriction",
+            "type": "number",
+            "value": "60"
+        },
+        "8": {
+            "name": "vasodilation",
+            "type": "number",
+            "value": "60"
+        },
+        "9": {
+            "name": "glycogenolysis",
+            "type": "number",
+            "value": "60"
+        },
+        "10": {
+            "name": "lipolysis",
+            "type": "number",
+            "value": "60"
+        },
+        "11": {
+            "name": "Stress",
+            "type": "number",
+            "value": "60"
+        }
+    }
+}]

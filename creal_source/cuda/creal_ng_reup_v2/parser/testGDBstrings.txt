@@ -1,0 +1,19 @@
+display crealProperties[903]
+display crealProperties[904]
+display crealProperties[905]
+display crealProperties[898]
+
+
+=============================
+
+Stuff to look at:
+at temporaryData.c:678
+3: crealProperties[905] = 3.7190270593769601e+142
+2: crealProperties[904] = 1.4136273005441568e+68
+1: crealProperties[903] = 1.1789629122654779e+72
+(gdb) c
+
+ 9
+3: crealProperties[905] = 1.0345709376746268694511380558155383e+284
+2: crealProperties[904] = 7.4559054486387474926353924033518653e+138
+1: crealProperties[903] = 6.2182132432781249909671784616455087e+142

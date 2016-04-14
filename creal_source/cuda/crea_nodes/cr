@@ -1,0 +1,7 @@
+#include <stdio.h> //standard library
+#include "/usr/include/linux/cuda.h" //cuda library
+#include <stdlib.h>	
+#include <unistd.h>
+#include <string.h>
+#include <time.h>
+#include "simplePrintf/cuPrintf.cu" //including the cuda simple printf stuff

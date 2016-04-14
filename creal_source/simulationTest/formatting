@@ -1,0 +1,68 @@
+Glucose Consumption via the Mouth
+
+0 - 200k mcg
+28 hours
+
+Absorbtion of Glucose via the Small intestine
+0  - 200k mcg 
+. 28 hours
+
+
+
+    id: 688
+    name: Small Intestine for FASEB
+    synonyms:
+    location:
+    image:
+    properties:
+        Glucose In Intestine in mg%: 0 (pid: 909)
+    actions:
+        464
+            increase Glucose In Intestine in mg% (pid:909) by/to 30208 (id: 585)
+            conditions:
+                if Seconds >= 21604 (cid: 441)
+                if Seconds <= 21609 (cid: 442) 
+        466
+            increase Glucose In Intestine in mg% (pid:909) by/to 30208 (id: 586)
+            conditions:
+                if Seconds >= 43204 (cid: 444)
+                if Seconds <= 43209 (cid: 445) 
+        467
+            increase Glucose In Intestine in mg% (pid:909) by/to 30208 (id: 587)
+            conditions:
+                if Seconds >= 64804 (cid: 446)
+                if Seconds <= 64809 (cid: 447) 
+        468
+            decrease Glucose In Intestine in mg% (pid:909) by/to 100.69 (id: 588)
+            conditions:
+                if Seconds >= 21610 (cid: 448)
+                if Seconds <= 23409 (cid: 449) 
+        469
+            decrease Glucose In Intestine in mg% (pid:909) by/to 100.69 (id: 589)
+            conditions:
+                if Seconds >= 43210 (cid: 450)
+                if Seconds <= 45009 (cid: 451) 
+        470
+            decrease Glucose In Intestine in mg% (pid:909) by/to 100.69 (id: 590)
+            conditions:
+                if Seconds >= 64810 (cid: 452)
+                if Seconds <= 66599 (cid: 453) 
+        471
+            increase Basal Glucose in mg% (pid:905) by/to 100.69 (id: 591)
+            conditions:
+                if Seconds >= 21610 (cid: 454)
+                if Seconds <= 23409 (cid: 455) 
+        472
+            increase Basal Glucose in mg% (pid:905) by/to 100.69 (id: 592)
+            conditions:
+                if Seconds >= 43210 (cid: 456)
+                if Seconds <= 45009 (cid: 457) 
+        473
+            increase Basal Glucose in mg% (pid:905) by/to 100.69 (id: 593)
+            conditions:
+                if Seconds >= 64810 (cid: 458)
+                if Seconds <= 66599 (cid: 459) 
+                
+                
+                
+
